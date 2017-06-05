@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Builder\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Model\" />
+    <Folder Include="Resolver\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebMarket.Api.Model\WebMarket.Api.Model.csproj" />
+    <ProjectReference Include="..\WebMarket.Api.Search.Contracts\WebMarket.Api.Search.Contracts.csproj" />
+    <ProjectReference Include="..\WebMarket.Common\WebMarket.Common.csproj" />
+  </ItemGroup>
+
+</Project>

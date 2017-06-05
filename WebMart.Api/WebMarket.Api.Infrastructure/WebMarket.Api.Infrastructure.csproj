@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.2" />
+    <PackageReference Include="System.Collections.Specialized" Version="4.3.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebMarket.Api.Model\WebMarket.Api.Model.csproj" />
+    <ProjectReference Include="..\WebMarket.Api.Search.Elastic\WebMarket.Api.Search.Elastic.csproj" />
+    <ProjectReference Include="..\WebMarket.Api.Search\WebMarket.Api.Search.csproj" />
+    <ProjectReference Include="..\WebMarket.Common\WebMarket.Common.csproj" />
+    <ProjectReference Include="..\WebMarket.Api.Search.Contracts\WebMarket.Api.Search.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+      <HintPath>..\..\..\..\Users\rnadar\.nuget\packages\microsoft.aspnetcore.mvc.core\1.1.2\lib\netstandard1.6\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures">
+      <HintPath>..\..\..\..\Users\rnadar\.nuget\packages\microsoft.aspnetcore.mvc.viewfeatures\1.1.2\lib\netstandard1.6\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing">
+      <HintPath>..\..\..\..\Users\rnadar\.nuget\packages\microsoft.aspnetcore.routing\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Routing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing.Abstractions">
+      <HintPath>..\..\..\..\Users\rnadar\.nuget\packages\microsoft.aspnetcore.routing.abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Routing.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

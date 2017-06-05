@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebMarket.Api.Model\WebMarket.Api.Model.csproj" />
+    <ProjectReference Include="..\WebMarket.Api.Search.Contracts\WebMarket.Api.Search.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
