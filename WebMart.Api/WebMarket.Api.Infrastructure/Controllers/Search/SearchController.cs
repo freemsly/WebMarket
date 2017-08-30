@@ -18,6 +18,7 @@ namespace WebMarket.Api.Infrastructure.Controllers.Search
     /// <summary>
     /// 
     /// </summary>
+    [Route("v{version}/[controller]")]
     public sealed class SearchController : Controller
     {
         /// <summary>

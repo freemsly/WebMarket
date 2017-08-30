@@ -1,0 +1,9 @@
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcETL.Common\bin\Debug\MarcETL.Common.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcETL.Common\bin\Debug\MarcETL.Common.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcETL.Common\obj\Debug\MarcETL.Common.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcETL.Common\obj\Debug\MarcETL.Common.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\bin\Debug\MarcETL.Common.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\bin\Debug\MarcETL.Common.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.csprojResolveAssemblyReference.cache
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.pdb

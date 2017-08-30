@@ -1,0 +1,13 @@
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\MarcETL.AWS.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\MarcETL.AWS.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\AWSSDK.Core.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\AWSSDK.S3.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\MarcETL.Model.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\MarcETL.Model.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\AWSSDK.Core.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\AWSSDK.Core.xml
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\AWSSDK.S3.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\bin\Debug\AWSSDK.S3.xml
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\obj\Debug\MarcETL.AWS.csprojResolveAssemblyReference.cache
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\obj\Debug\MarcETL.AWS.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.AWS\obj\Debug\MarcETL.AWS.pdb

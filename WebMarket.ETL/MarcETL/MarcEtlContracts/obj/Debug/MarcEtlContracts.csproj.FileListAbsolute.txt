@@ -1,0 +1,10 @@
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcEtlContracts\bin\Debug\MarcEtlContracts.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcEtlContracts\bin\Debug\MarcEtlContracts.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcEtlContracts\obj\Debug\MarcEtlContracts.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcEtlContracts\obj\Debug\MarcEtlContracts.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\mef\MarcEtlContracts\obj\Debug\MarcEtlContracts.csprojResolveAssemblyReference.cache
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcEtlContracts\bin\Debug\MarcEtlContracts.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcEtlContracts\bin\Debug\MarcEtlContracts.pdb
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcEtlContracts\obj\Debug\MarcEtlContracts.csprojResolveAssemblyReference.cache
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcEtlContracts\obj\Debug\MarcEtlContracts.dll
+C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcEtlContracts\obj\Debug\MarcEtlContracts.pdb
