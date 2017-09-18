@@ -8,6 +8,7 @@ using MarcETL.AWS;
 using MarcETL.Common;
 using MarcETL.Model;
 
+
 namespace MarcETL.NA
 {
     public class Processor : MarcProcess<Marc>
@@ -51,6 +52,9 @@ namespace MarcETL.NA
                 //item.IsFileUploaded = true;
                 S3MarcManager.UploadFile(item, CompositeBucketName(item));
                 item.IsFileUploaded = true;
+                
+               
+              
             }
         }
 
@@ -69,7 +73,8 @@ namespace MarcETL.NA
                         using (
                             var sqlCommand =
                                 new SqlCommand(
-                                    "IF NOT EXISTS(Select 1 from ProductMarc where ProductNumber = @ProdNumber) " +
+                                    //"IF NOT EXISTS(Select 1 from ProductMARC where ProductNumber = @ProdNumber) " +
+                                    "IF NOT EXISTS(Select 1 from MarcETL where ProductNumber = @ProdNumber) " +
                                     "BEGIN " +
                                     "INSERT INTO ProductMarc(ProductNumber,HasMARC,MARCFileName,MARCType,UpdatedAt) VALUES (@ProdNumber,1,@filename,'F',GetDate()) " +
                                     "END ", cn))

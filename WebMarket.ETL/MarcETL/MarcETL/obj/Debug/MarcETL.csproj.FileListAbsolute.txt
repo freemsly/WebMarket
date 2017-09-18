@@ -30,3 +30,23 @@ C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL\bin\Debug\
 C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL\bin\Debug\AWSSDK.S3.xml
 C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL\bin\Debug\AWSSDK.Core.pdb
 C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL\bin\Debug\AWSSDK.Core.xml
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.exe.config
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.exe
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.AWS.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.Common.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.Model.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcEtlContracts.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\AWSSDK.S3.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\AWSSDK.Core.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.AWS.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.Common.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcETL.Model.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\MarcEtlContracts.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\AWSSDK.S3.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\AWSSDK.S3.xml
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\AWSSDK.Core.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\bin\Debug\AWSSDK.Core.xml
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\obj\Debug\MarcETL.csprojResolveAssemblyReference.cache
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\obj\Debug\MarcETL.exe
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL\obj\Debug\MarcETL.pdb

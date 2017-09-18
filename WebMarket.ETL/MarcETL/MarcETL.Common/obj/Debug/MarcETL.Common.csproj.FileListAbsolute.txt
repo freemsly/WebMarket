@@ -7,3 +7,8 @@ C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\bin
 C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.csprojResolveAssemblyReference.cache
 C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.dll
 C:\Users\rnadar\Documents\Visual Studio 2015\Projects\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL.Common\bin\Debug\MarcETL.Common.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL.Common\bin\Debug\MarcETL.Common.pdb
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.csprojResolveAssemblyReference.cache
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.dll
+C:\code\MarcETL\WebMarket.ETL\MarcETL\MarcETL.Common\obj\Debug\MarcETL.Common.pdb

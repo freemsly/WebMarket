@@ -9,6 +9,7 @@ using Amazon.Runtime;
 using Amazon.S3;
 using Amazon.S3.Model;
 using Amazon.S3.Transfer;
+using Amazon.S3.IO;
 
 namespace MarcETL.AWS
 {
@@ -24,9 +25,18 @@ namespace MarcETL.AWS
 
         public bool UploadFile(string sourcePath, string fileName)
         {
+
+            var fileExists = new Amazon.S3.IO.S3FileInfo(Client, BucketName, fileName);
+            
             var b = false;
             try
             {
+                if (fileExists.Exists)
+                {
+                    // Delete existing file and re- upload
+                    Client.DeleteObject(new Amazon.S3.Model.DeleteObjectRequest() { BucketName = BucketName, Key = fileName });                    
+                }
+                
                 var utility = new TransferUtility(Client);
                 var request = new TransferUtilityUploadRequest
                 {
