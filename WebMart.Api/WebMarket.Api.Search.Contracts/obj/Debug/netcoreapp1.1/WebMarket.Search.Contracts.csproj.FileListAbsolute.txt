@@ -1,7 +1,0 @@
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\bin\Debug\netcoreapp1.1\WebMarket.Search.Contracts.deps.json
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\bin\Debug\netcoreapp1.1\WebMarket.Search.Contracts.dll
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\bin\Debug\netcoreapp1.1\WebMarket.Search.Contracts.pdb
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\obj\Debug\netcoreapp1.1\WebMarket.Search.Contracts.AssemblyInfo.cs
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\obj\Debug\netcoreapp1.1\WebMarket.Search.Contracts.dll
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\obj\Debug\netcoreapp1.1\WebMarket.Search.Contracts.pdb
-C:\Code\WebMarket\WebMart.Api\WebMarket.Search.Contracts\obj\Debug\netcoreapp1.1\WebMarket.Search.Contracts.csprojResolveAssemblyReference.cache

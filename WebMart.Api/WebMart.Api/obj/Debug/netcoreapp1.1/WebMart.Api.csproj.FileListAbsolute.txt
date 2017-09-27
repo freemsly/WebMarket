@@ -1,9 +1,0 @@
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\bin\Debug\netcoreapp1.1\WebMart.Api.deps.json
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\bin\Debug\netcoreapp1.1\WebMart.Api.runtimeconfig.json
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\bin\Debug\netcoreapp1.1\WebMart.Api.runtimeconfig.dev.json
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\bin\Debug\netcoreapp1.1\WebMart.Api.dll
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\bin\Debug\netcoreapp1.1\WebMart.Api.pdb
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\obj\Debug\netcoreapp1.1\WebMart.Api.csprojResolveAssemblyReference.cache
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\obj\Debug\netcoreapp1.1\WebMart.Api.AssemblyInfo.cs
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\obj\Debug\netcoreapp1.1\WebMart.Api.dll
-C:\Code\WebMarket\WebMart.Api\WebMart.Api\obj\Debug\netcoreapp1.1\WebMart.Api.pdb
