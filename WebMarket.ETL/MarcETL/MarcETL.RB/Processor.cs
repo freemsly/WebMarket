@@ -39,22 +39,23 @@ namespace MarcETL.NA
         {
             //move the files to new location
             Console.WriteLine("moved marc files for NA");
-
+            var i = 0;
             foreach (var item in filesList)
             {
-                //if (File.Exists(MarcConfiguration.GetDestinationDirectory()))
-                //{
-                //    File.Delete(MarcConfiguration.GetDestinationDirectory());
-                //}
-                //var sourceFile = System.IO.Path.Combine(MarcConfiguration.GetSourceDirectory(), item.FileName);
-                //var destFile = System.IO.Path.Combine(MarcConfiguration.GetDestinationDirectory(), item.FileName);
-                //File.Move(sourceFile, destFile);
-                //item.IsFileUploaded = true;
-                S3MarcManager.UploadFile(item, CompositeBucketName(item));
-                item.IsFileUploaded = true;
-                
-               
-              
+                try
+                {
+                    Console.WriteLine("Transfer of product - " + item.Isbn);
+                    
+                    S3MarcManager.UploadFile(item, CompositeBucketName(item));
+                    item.IsFileUploaded = true;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
+                Console.WriteLine("No of files transferred - " + i++);
+
             }
         }
 
