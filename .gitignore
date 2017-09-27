@@ -1,0 +1,26 @@
+# solution user options
+*.suo
+*.user
+*.bak
+
+# generated files
+*.g.cs
+
+# cache files
+*.cache
+*.Cache
+
+# build files
+bins/*
+*.log
+*.nupkg
+*.mrc
+
+#folders
+bin
+Bin
+obj
+Debug
+Release
+packages
+.vs
