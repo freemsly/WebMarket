@@ -10,12 +10,15 @@ namespace MarcEtlContracts
         public abstract List<T> Extract();
         public abstract void Transfer(List<T> filesList);
         public abstract void UpdateState();
-        
+
+        public abstract void CleanUp();
+
         public void Process()
         {
             var fileList = Extract();
             Transfer(fileList);
             UpdateState();
+            CleanUp();
         }
     }
 }

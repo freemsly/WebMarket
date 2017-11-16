@@ -14,10 +14,12 @@ namespace MarcETL.NA
     public class Processor : MarcProcess<Marc>
     {
         private List<Marc> _filesList;
+        private string Environment = "NA";
         
         public override List<Marc> Extract()
         {
-            string[] dirs = Helper.GetMarcExtensionFiles(MarcConfiguration.GetSourceDirectory());
+            var filePath = MarcConfiguration.GetSourceDirectory() + "\\" + Environment;
+            string[] dirs = Helper.GetMarcExtensionFiles(filePath);
             Console.WriteLine("The number of files having extension .mrc is {0}.", dirs.Length);
             _filesList = new List<Marc>();
             foreach (string file in dirs)
@@ -27,7 +29,7 @@ namespace MarcETL.NA
                 var marc = new Marc();
                 marc.FileName = Helper.ExtractFileName(file);
                 marc.ProductNumber = Helper.ExtractProductNumber(marc.FileName);
-                marc.FileLocation = MarcConfiguration.GetSourceDirectory();
+                marc.FileLocation = MarcConfiguration.GetSourceDirectory() + "\\"+ Environment;
                 
                 _filesList.Add(marc);
             }
@@ -75,14 +77,15 @@ namespace MarcETL.NA
                             var sqlCommand =
                                 new SqlCommand(
                                     //"IF NOT EXISTS(Select 1 from ProductMARC where ProductNumber = @ProdNumber) " +
-                                    "IF NOT EXISTS(Select 1 from MarcETL where ProductNumber = @ProdNumber) " +
+                                    "IF NOT EXISTS(Select 1 from Marc where ProductNumber = @ProdNumber and Environment =@environment) " +
                                     "BEGIN " +
-                                    "INSERT INTO ProductMarc(ProductNumber,HasMARC,MARCFileName,MARCType,UpdatedAt) VALUES (@ProdNumber,1,@filename,'F',GetDate()) " +
+                                    "INSERT INTO Marc(ProductNumber,HasMARC,MARCFileName,MARCType,UpdatedAt,Environment) VALUES (@ProdNumber,1,@filename,'F',GetDate(),@environment) " +
                                     "END ", cn))
                         {
                             cn.Open();
                             sqlCommand.Parameters.AddWithValue("@ProdNumber", item.ProductNumber);
                             sqlCommand.Parameters.AddWithValue("@filename", item.FileName);
+                            sqlCommand.Parameters.AddWithValue("@environment", Environment);
                             sqlCommand.ExecuteNonQuery();
                             cn.Close();
                         }
@@ -91,9 +94,31 @@ namespace MarcETL.NA
             }
         }
 
-        private static string CompositeBucketName(Marc marc)
+
+        public override void CleanUp()
         {
-            return S3Configs.MarcBucketName + "/NA/" + marc.ProductNumber;
+
+            foreach (var item in _filesList)
+            {
+                if (item.IsFileUploaded)
+                {
+                    // gp to the source directory with the file name and search it
+                    //move the file to destination directory
+                    var sourceFile = System.IO.Path.Combine(MarcConfiguration.GetSourceDirectory() + "\\"+ Environment, item.FileName);
+                    var destFile = System.IO.Path.Combine(MarcConfiguration.GetDestinationDirectory() + "\\"+ Environment, item.FileName);
+                    if (File.Exists(destFile))
+                    {
+                        File.Delete(destFile);                        
+                    }
+                    File.Move(sourceFile, destFile);
+
+                }
+            }
+        }
+
+        private  string CompositeBucketName(Marc marc)
+        {
+            return S3Configs.MarcBucketName + "/"+ Environment + "/" + marc.ProductNumber;
         }
 
     }
