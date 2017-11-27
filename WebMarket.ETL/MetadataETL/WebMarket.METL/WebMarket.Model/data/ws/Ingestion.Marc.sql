@@ -1,0 +1,1 @@
+﻿SELECT  ProductNumber, HasMarc, MARCFileName FROM ProductMARC WHERE Environment='ws'

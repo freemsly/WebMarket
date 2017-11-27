@@ -1,0 +1,1 @@
+﻿SELECT DISTINCT Isbn, S3FolderName, HasImages from DigitalAsset.Product(NOLOCK) WHERE Region='NA' AND ISBN IS NOT NULL AND S3FolderName IS NOT NULL AND S3FolderName NOT LIKE 'I%'

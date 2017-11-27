@@ -1,0 +1,1 @@
+﻿SELECT Isbn, S3FolderName, HasImages from DigitalAsset.Product(NOLOCK) WHERE Region='EU' AND ISBN IS NOT NULL AND S3FolderName IS NOT NULL

@@ -1,0 +1,1 @@
+﻿SELECT DISTINCT Isbn, Review FROM tm_titlereview WHERE IsActive = 1 

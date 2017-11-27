@@ -1,0 +1,1 @@
+﻿SELECT ProductNumber, HasMarc, MARCFileName AS FileName FROM ProductMarc(NOLOCK)  WHERE Environment='na'

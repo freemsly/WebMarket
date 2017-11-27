@@ -1,0 +1,60 @@
+﻿// <copyright company="Recorded Books Inc" file="TitleIndexBuilder.cs">
+// Copyright © 2015 All Rights Reserved
+// </copyright>
+
+namespace WebMarket.ETL
+{
+    using System.Collections.Generic;
+
+
+    public static class ElasticProductBuilder 
+    {
+        public static ElasticProduct Map(this TitleIndex titleindex)
+        {
+            var item = new ElasticProduct
+            {
+                Ownership = titleindex.Ownership,
+                SalesRights = titleindex.SalesRights,
+                Title = titleindex.Title,
+                Author = titleindex.Author,
+                Authors = titleindex.Authors,
+                Audience = titleindex.Audience,
+                ActivatedOn = titleindex.ActivatedOn,
+                Duration = titleindex.Duration,
+                Genre = titleindex.Genre,
+                Genres = titleindex.Genres,
+                HasDrm = titleindex.HasDrm,
+                Images = titleindex.Images,
+                Isbn = titleindex.Isbn,
+                IsFiction = titleindex.IsFiction,
+                ItemSubtitle = titleindex.ItemSubtitle,
+                Language = titleindex.Language,
+                MediaType = titleindex.MediaType,
+                Narrator = titleindex.Narrator,
+                Narrators = titleindex.Narrators,
+                PreviewFile = titleindex.PreviewFile,
+                PublishedOn = titleindex.PublishedOn,
+                Publisher = titleindex.Publisher,
+                Series = titleindex.Series,
+                Imprint = titleindex.Imprint,
+                Description = titleindex.Description,
+                Id = titleindex.Isbn,
+                Subscriptions = titleindex.Subscriptions,
+                UsageTerms = titleindex.UsageTerms,
+                SOP = titleindex.SOP,
+                Group = titleindex.Group,
+
+
+                Title_Suggestive = titleindex.Title,
+                Author_Suggestive = titleindex.Author,
+                Genre_Suggestive = titleindex.Genre,
+                Publisher_Suggestive = titleindex.Publisher,
+                Series_Suggestive = titleindex.Series,
+                Imprints_Suggestive = titleindex.Imprint,
+            };
+
+            return item;
+        }
+
+    }
+}

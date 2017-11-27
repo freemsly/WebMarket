@@ -1,0 +1,1 @@
+﻿select 0 As Id ,''  AS Name,'' as Isbn, '' AS SOPTemplateName, 0 AS [year], '' AS Frequency, '' AS SOPGroup, '' as [Format], 0 AS EntityId 

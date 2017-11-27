@@ -1,0 +1,15 @@
+﻿--SELECT DISTINCT ACS.Account_No AS AccountNo,
+--			SL.description AS SubscriptionName
+--			,SL.ISBN
+--			,SL.Job_No AS  SubscriptionId
+--			,OA.OneClickLibraryId AS LibraryId
+--            ,OA.EntityId                   
+--FROM acsuorders_summary ACS 
+--INNER JOIN acsuorder_lines(NOLOCK) AOL
+--ON ACS.order_no = AOL.order_no
+--LEFT JOIN dbo.stocklines(NOLOCK) SL ON SL.stock_no = AOL.Stock_No 
+--LEFT JOIN ORG.Account(NOLOCK) OA ON OA.AccountId = ACS.Account_No 
+--LEFT JOIN CUSTOMERS (Nolock) C ON C.account_no = ACS.Account_No 
+--WHERE ACS.Status in ('Invoice Printed')
+--and SL.Job_No like 'SUBID%'
+--ORDER BY 1,2
